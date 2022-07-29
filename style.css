@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  padding: 1rem;
+}
+
+form input {
+  outline: none;
+  padding: 0.2rem 0.3rem;
+  font-size: 22px;
+}
+
+form button {
+  padding: 0.4rem 0.6rem;
+  border: none;
+  font-size: 20px;
+  background: green;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: rgb(0, 168, 0);
+}
+
+section div {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 5px;
+}
